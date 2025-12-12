@@ -4,7 +4,7 @@ pipeline {
     }
     
     environment {
-        DOCKER_IMAGE = 'rajvineesh-sudo/my-app:latest'
+        DOCKER_IMAGE = 'vineeshraj/my-app:latest'
         GIT_REPO = 'https://github.com/rajvineesh-sudo/JenkinsDemo.git'
     }
 
